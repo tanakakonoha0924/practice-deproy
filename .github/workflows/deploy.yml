@@ -19,8 +19,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - name: Check test.html
-        run: test -f index.html
+      - name: Check index.html
+        run: test -f test.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
